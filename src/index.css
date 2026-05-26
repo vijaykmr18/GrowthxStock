@@ -1,0 +1,60 @@
+:root {
+  /* Premium Dark Theme Color Palette */
+  --bg-main: #0a0b0e;
+  --bg-card: #12141c;
+  --bg-card-hover: #191c27;
+  --bg-glass: rgba(18, 20, 28, 0.7);
+  --border-glass: rgba(255, 255, 255, 0.06);
+  --border-active: rgba(0, 229, 255, 0.3);
+
+  /* Accents */
+  --accent-cyan: #00e5ff;
+  --accent-purple: #8e2de2;
+  --accent-purple-light: #4a00e0;
+  --accent-emerald: #00e676;
+  --accent-rose: #ff1744;
+  
+  /* Text */
+  --text-primary: #f5f6fa;
+  --text-secondary: #8f9cae;
+  --text-muted: #576574;
+
+  /* Font Families */
+  --font-title: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* Custom Scrollbar for Premium Feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252836;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
