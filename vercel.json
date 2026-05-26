@@ -6,12 +6,9 @@
       "destination": "/api/index.js"
     },
     {
-      "source": "/assets/:path*",
-      "destination": "/assets/:path*"
-    },
-    {
-      "source": "/((?!api|assets).*).*",
+      "source": "/:path((?!api).*)",
       "destination": "/index.html"
     }
   ]
 }
+
