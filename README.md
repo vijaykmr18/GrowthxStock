@@ -33,9 +33,9 @@ npm install
 ### 2. Environment Setup
 The project contains a `.env` file at the root. Verify that it contains your credentials:
 ```dotenv
-MONGO_URI=mongodb+srv://...
-OPENROUTER_API_KEY=sk-or-v1-...
-MONGO_DB_NAME=Stockpatterns
+MONGO_URI=mongodb URL
+OPENROUTER_API_KEY=Your API key
+MONGO_DB_NAME=Collection name
 PORT=8000
 ```
 
